@@ -1,8 +1,8 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main()
 {
-	// int´Â 10^9 Á¤µµ
+	// intëŠ” 10^9 ì •ë„
 	long a, b, c;
 	std::cin >> a;
 	std::cin >> b;
