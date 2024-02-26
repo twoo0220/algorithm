@@ -2,7 +2,8 @@
 
 int main()
 {
-	long long a, b, c;
+	// int´Â 10^9 Á¤µµ
+	long a, b, c;
 	std::cin >> a;
 	std::cin >> b;
 	std::cin >> c;
