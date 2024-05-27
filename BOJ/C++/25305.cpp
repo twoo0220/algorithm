@@ -8,17 +8,17 @@ int main()
     std::cout.tie(0);
     std::cin.tie(0);
 
-    std::vector<int> arr(5);
-    int total = 0;
-    for (int i = 0; i < 5; ++i)
+    int size(0), winner(0);
+    std::cin >> size >> winner;
+
+    std::vector<int> arr(size);
+    for (int i = 0; i < size; ++i)
     {
         std::cin >> arr[i];
-        total += arr[i];
     }
 
     std::sort(arr.begin(), arr.end());
-    std::cout << (total / 5) << "\n";
-    std::cout << arr[2];
+    std::cout << arr[size - winner];
 
     return 0;
 }
