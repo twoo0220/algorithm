@@ -18,7 +18,7 @@ int main()
     std::sort(arr, arr + 9);
     for (int i = 0; i < 8; ++i)
     {
-        for (int j = i + 1; j < 9; ++j)
+        for (int j = 1; j < 9; ++j)
         {
             if ((sum - arr[i] - arr[j]) == 100)
             {
@@ -29,7 +29,7 @@ int main()
                         std::cout << arr[k] << "\n";
                     }
                 }
-                break;
+                return 0;
             }
         }
     }
